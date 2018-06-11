@@ -7,6 +7,6 @@ import com.testcomp.test.DemoService;
 public class DemoServiceImpl implements DemoService{
 
     public String sayHello(String name) {
-        return name; 
+        return "经过dubbo服务提供者啦，调用传入的名字："+name; 
     }  
 }
